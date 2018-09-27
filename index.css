@@ -1,0 +1,126 @@
+
+.headerBackground{
+    background-image: url("images/headerBackground.jpg");
+    height: auto;
+}
+div .topnav {
+text-align: center;
+overflow: hidden;
+
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+p.findHoliday{
+    border: 2px solid red;
+    background-color:#FF4E50;
+    border-radius: 10px 10px;
+    margin: auto;
+    width: 20%;
+    height: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  height: 5%;
+  width: 10%;
+  color: white;
+  padding: .1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+.topnav{
+  margin-right:20%;
+}
+h3{
+  color: white;
+  position: absolute;
+}
+div.column {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 2em;
+  align-items: center;
+  margin-left:5em;
+  margin-right: 2em;
+
+}
+
+p.share{
+  font-weight: bold;
+  font-size: 36;
+  color:white;
+  text-align: center;
+}
+p.Find{
+  color:white;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  margin-top: 3%;
+}
+
+
+/* .column {
+    float: left;
+    padding: 5px;
+} */
+img{
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+}
+
+/* Clearfix (clear floats) */
+
+#music{
+  background-color: #FF4E50;
+  color:white;
+  width: 10em%;
+  border: 0;
+}
+
+
+/* .after-box {
+  clear: left;
+} */
+div .seeOtherPart{
+  border: 2px solid #FF4E50;
+  border-radius: 25px;
+  height: 5%;
+  width: 10%;
+  padding: .1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+.row::after {
+    content: "";
+    clear: both;
+
+}
+
+
+/* .row .column {
+    /* float: left; */
+    /* display:inline-block;
+    color: grey;
+    text-align: center;
+    align-items: center;
+
+    text-decoration: none; */
+
+
+/* .row{
+  align-items: center;
+
+} */
