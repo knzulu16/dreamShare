@@ -1,4 +1,7 @@
-
+body{
+  width: 100%;
+  margin:auto;
+}
 .headerBackground{
     background-image: url("images/headerBackground.jpg");
     height: auto;
@@ -52,6 +55,7 @@ div.column {
   align-items: center;
   margin-left:5em;
   margin-right: 2em;
+  position:relative;
 
 }
 
@@ -75,33 +79,92 @@ h2{
     float: left;
     padding: 5px;
 } */
-img{
+img.meetPartner{
   border-radius: 50%;
-  width: auto;
-  height: auto;
+
 }
 
 /* Clearfix (clear floats) */
 
-#music{
+img#music{
   background-color: #FF4E50;
-  color:white;
-  width: 10em%;
-  border: 0;
+  width: 2em;
+  height: 2em;
+  margin-left: -2.5em;
+  border: 2px solid #ffffff;
+
 }
 
+img#brush{
+  background-color: #18D4CA;
+  width: 2em;
+  height: 2em;
+  border: 0;
+  margin-left: -2.5em;
+  border: 2px solid #ffffff;
 
+
+}
+img#camera{
+  background-color:  #FFA710;
+  width: 2em;
+  height: 2em;
+  border: 0;
+  margin-left: -2.5em;
+  border: 2px solid #ffffff;
+
+}
+img#airplane{
+  background-color: #667DF3;
+
+  width: 2em;
+  height: 2em;
+  border: 0;
+  margin-left: -2.5em;
+  border: 2px solid #ffffff;
+
+}
+img.icon{
+  border-radius: 50%;
+}
+/* img[src='images/music.svg'] {
+  color:white;
+} */
 /* .after-box {
   clear: left;
-} */
-div .seeOtherPart{
+} */div.seeOtherPart{
   border: 2px solid #FF4E50;
   border-radius: 25px;
-  height: 5%;
-  width: 10%;
+  height: 2em;
+  width: 15%;
   padding: .1em;
   text-decoration: none;
   font-weight: bold;
+  margin-top: 30%;
+  margin-left: 40%;
+  text-align: center;
+ color: #FF4E50;
+}
+div.discover{
+  margin-top:2em;
+  margin-left:40%;
+
+}
+div.column1 {
+  float: left;
+
+  width: 200px;
+  height: 100px;
+  margin: 2em;
+  /* align-items: center; */
+  margin-left:4em;
+  margin-right: 4em;
+  /* margin-right: 2em; */
+  /* position:relative; */
+
+}
+.column1 img{
+    display:block;
 }
 .row::after {
     content: "";
