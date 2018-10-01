@@ -13,7 +13,7 @@ overflow: hidden;
 }
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color:#444444;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,20 +29,21 @@ p.findHoliday{
     height: 1.7em;
     font-weight: bold;
     text-align: center;
-    color:white;
+    color:#444444;
 }
 .button {
   border: 2px solid #ffffff;
   border-radius: 25px;
   height: 5%;
   width: 10%;
-  color: white;
+  color:#444444;
   padding: .1em;
   text-decoration: none;
   font-weight: bold;
 }
 .topnav{
   margin-right:20%;
+  color:#444444;
 }
 h3{
   color:#444444;
@@ -62,17 +63,18 @@ div.column {
   position:relative;
 
 }
-
+a.topnav{
+  color:#444444;
+}
 h1.share{
   font-weight: bold;
   font-size: 36px;
-  color:white;
+  color:#444444;
   text-align: center;
   margin-top:5em;
-  color:#444444;
 }
 p.Find{
-  color:white;
+  color:#444444;
   text-align: center;
   /* margin-bottom:8em; */
   /* margin-top:2em; */
@@ -92,6 +94,7 @@ h2{
 } */
 img.meetPartner{
   border-radius: 50%;
+  color:#444444;
 
 }
 
@@ -159,6 +162,9 @@ img.icon{
 div.discover{
   margin-top:2em;
   margin-left:40%;
+  color:#444444;
+  font-weight: bold;
+  font-size: 24px;
 
 }
 div.column1 {
@@ -185,7 +191,7 @@ div.center{
    vertical-align: middle */
    position: absolute;
 
-    margin-bottom: 50%;
+
     text-align: center;
 
  }
@@ -193,14 +199,10 @@ div.center{
    position: relative;
  }
   div#image-wrapper{
-
+ text-align: center;
+ z-index:-1;
   }
 
-/* .row::after {
-    content: "";
-    clear: both;
-
-} */
 div.column2 {
   float: left;
   margin-top:20%;
@@ -245,22 +247,23 @@ hr {
 }
 div.column4 {
   float: left;
-
-
-
   margin: 2em;
   /* align-items: center; */
   margin-left:4em;
   margin-right: 4em;
   /* margin-right: 2em; */
   /* position:relative; */
-
 }
 ul {
   list-style: none;
+  padding-left: 0;
+  color:#444444;
 }
 div.container {
     position: relative;
+}
+h4{
+color:#444444;
 }
 
 /* .center{
@@ -277,7 +280,41 @@ p.dreamBottom{
 }
 li.View{
   color:#FF4E50;
+
 }
+div.column{
+  color:#666666;
+}
+h6{
+  color:#444444;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:White;
+}
+
+.centered {
+  font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-align: center;
+    
+    /* margin-top: 30%; */
+}
+#sport{
+  color:#444444;
+  font-weight: bold;
+  margin-top: 30%;
+
+}
+
+
+
 
 /* .row .column {
     /* float: left; */
