@@ -44,8 +44,11 @@ p.findHoliday{
   margin-right:20%;
 }
 h3{
-  color: white;
-  position: absolute;
+  color:white;
+  position:absolute;
+    top:0;
+    left:0;
+    margin-left: 20%;
 }
 div.column {
   float: left;
@@ -152,7 +155,7 @@ div.discover{
 }
 div.column1 {
   float: left;
-
+  margin-top: 20%;
   width: 200px;
   height: 100px;
   margin: 2em;
@@ -163,36 +166,29 @@ div.column1 {
   /* position:relative; */
 margin-bottom:15%;
 }
-.row::after {
+/* .row::after {
     content: "";
     clear: both;
 
-}
+} */
 div.column2 {
   float: left;
   margin-top:20%;
   width: 200px;
   height: 100px;
   margin: 2em;
-  /* align-items: center; */
   margin-left:4em;
   margin-right: 4em;
-  /* margin-right: 2em; */
-  /* position:relative; */
 margin-bottom:15%;
 }
 div.column3 {
   float: left;
+
   margin-top:20%;
-  /* width: 200px;
-  height: 100px; */
+
   margin: 2em;
-  /* align-items: center; */
   margin-left:4em;
-  /* margin-right: 4em; */
-  margin-right: 4em;
-  /* position:relative; */
-margin-bottom:15%;
+  margin-right: -2em;
 }
 .row::after {
     content: "";
@@ -233,7 +229,16 @@ div.column4 {
 ul {
   list-style: none;
 }
+.container {
+    position: relative;
+}
 
+div.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* .row .column {
     /* float: left; */
