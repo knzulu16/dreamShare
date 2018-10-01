@@ -4,7 +4,7 @@ body{
 }
 .headerBackground{
     background-image: url("images/headerBackground.jpg");
-    height: auto;
+    height: 600px;
 }
 div .topnav {
 text-align: center;
@@ -24,8 +24,9 @@ p.findHoliday{
     background-color:#FF4E50;
     border-radius: 10px 10px;
     margin: auto;
+
     width: 20%;
-    height: 1.5em;
+    height: 1.7em;
     font-weight: bold;
     text-align: center;
     color:white;
@@ -44,7 +45,7 @@ p.findHoliday{
   margin-right:20%;
 }
 h3{
-  color:white;
+  color:#444444;
   position:absolute;
     top:0;
     left:0;
@@ -62,19 +63,26 @@ div.column {
 
 }
 
-p.share{
+h1.share{
   font-weight: bold;
-  font-size: 36;
+  font-size: 36px;
   color:white;
   text-align: center;
+  margin-top:5em;
+  color:#444444;
 }
 p.Find{
   color:white;
   text-align: center;
+  /* margin-bottom:8em; */
+  /* margin-top:2em; */
+
+ margin-bottom:10%;
 }
 h2{
   text-align: center;
   margin-top: 3%;
+  color:#444444;
 }
 
 
@@ -165,7 +173,29 @@ div.column1 {
   /* margin-right: 2em; */
   /* position:relative; */
 margin-bottom:15%;
+text-align: center;
+/* margin-bottom: auto; */
 }
+div.center{
+  /* margin-bottom:400%; */
+  /* text-align: center; */
+  /* z-index:9999;
+  min-height: 10em;
+   display: table-cell;
+   vertical-align: middle */
+   position: absolute;
+
+    margin-bottom: 50%;
+    text-align: center;
+
+ }
+ #image-wrapper{
+   position: relative;
+ }
+  div#image-wrapper{
+
+  }
+
 /* .row::after {
     content: "";
     clear: both;
@@ -229,15 +259,24 @@ div.column4 {
 ul {
   list-style: none;
 }
-.container {
+div.container {
     position: relative;
 }
 
-div.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* .center{
+  position:relative;
+  margin-top: 40%;
+
+}
+.center{
+  text-align: center;
+
+} */
+p.dreamBottom{
+  color:#FF4E50;
+}
+li.View{
+  color:#FF4E50;
 }
 
 /* .row .column {
