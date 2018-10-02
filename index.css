@@ -105,51 +105,50 @@ img.meetPartner{
 
 img#music{
   background-color: #FF4E50;
-  width: 2em;
-  height: 2em;
-  margin-left: -2.5em;
-  border: 2px solid #ffffff;
+  width: 3em;
+  height: 3em;
+  margin-left: -3.5em;
+  border: 3px solid #ffffff;
+  margin-bottom: -9em;
 
 }
 
 img#brush{
   background-color: #18D4CA;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   border: 0;
-  margin-left: -2.5em;
-  border: 2px solid #ffffff;
+  margin-left: -3.5em;
+  border: 3px solid #ffffff;
+  margin-bottom: -9em;
 
 
 }
 img#camera{
   background-color:  #FFA710;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   border: 0;
-  margin-left: -2.5em;
-  border: 2px solid #ffffff;
+  margin-left: -3.5em;
+  border: 3px solid #ffffff;
+  margin-bottom: -9em;
 
 }
 img#airplane{
   background-color: #667DF3;
-
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   border: 0;
-  margin-left: -2.5em;
-  border: 2px solid #ffffff;
+  margin-left: -3.5em;
+  border: 3px solid #ffffff;
+  margin-bottom: -9em;
 
 }
 img.icon{
   border-radius: 50%;
 }
-/* img[src='images/music.svg'] {
-  color:white;
-} */
-/* .after-box {
-  clear: left;
-} */div.seeOtherPart{
+
+div.seeOtherPart{
   border: 2px solid #FF4E50;
   border-radius: 25px;
   height: 2em;
@@ -157,10 +156,10 @@ img.icon{
   padding: .1em;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 30%;
+  margin-top: 15%;
   margin-left: 40%;
   text-align: center;
- color:#666666;
+ color:#FF4E50;
 }
 p.seeOtherPart{
   text-align: center;
@@ -176,33 +175,19 @@ div.discover{
 }
 div.column1 {
   float: left;
-  margin-top: 20%;
+  /* margin-top: 20%; */
   width: 200px;
   height: 100px;
   margin: 2em;
-  /* align-items: center; */
   margin-left:4em;
   margin-right:4em;
-
-  /* margin-right: 2em; */
-  /* position:relative; */
 margin-bottom:15%;
 text-align: center;
-/* margin-bottom: auto; */
 
 }
 div.center{
-  /* margin-bottom:400%; */
-  /* text-align: center; */
-  /* z-index:9999;
-  min-height: 10em;
-   display: table-cell;
-   vertical-align: middle */
    position: absolute;
-
-
     text-align: center;
-
  }
  #image-wrapper{
    position: relative;
@@ -214,25 +199,27 @@ div.center{
 
 div.column2 {
   float: left;
-  margin-top:20%;
+  /* margin-top:30%; */
   width: 200px;
   height: 100px;
   margin: 2em;
   margin-left:4em;
   margin-right: 4em;
+  padding-top:1em;
+
 margin-bottom:15%;
 }
 div.column3 {
   float: left;
-  margin-top:2em;
+  /* margin-top:4em; */
   margin: 2em;
   margin-left:4em;
   margin-right: -2em;
   margin-bottom:10%;
+  padding-top:1em;
+  /* font-size: 12px; */
 }
-/* .column3.centered{
-  margin-top: 20%;
-} */
+
 .row::after {
     content: "";
     clear: both;
@@ -244,16 +231,11 @@ div.column3 {
 .row::after {
     content: "";
     clear: both;
-
 }
 hr {
+  border-top: 1px solid #FF4E50;
 
-   border-top: 1px solid #FF4E50;
-  margin-top: 20%;
-   /* margin-top:50em; */
-   /* margin-left:30em;  */
-   /* margin-bottom:40%; */
-    width: 100%;
+  width: 100%;
 
 }
 .row{
@@ -262,44 +244,29 @@ hr {
 }
 #image-wrapper{
   text-align: center;
-
    bottom: 0%;
 }
 div.column4 {
   float: left;
   margin: 2em;
-  /* align-items: center; */
   margin-left:4em;
   margin-right: 4em;
-  /* margin-right: 2em; */
-  /* position:relative; */
 }
 ul {
   list-style: none;
   padding-left: 0;
-  color:#444444;
+  color:#666666;
 }
 div.container {
     position: relative;
     padding-left:3em;
     padding-top: 2em;
-    /* top: 50px;
-    left: 50px; */
 
 }
 h4{
 color:#444444;
 }
 
-/* .center{
-  position:relative;
-  margin-top: 40%;
-
-}
-.center{
-  text-align: center;
-
-} */
 p.dreamBottom{
   color:#FF4E50;
 }
@@ -315,26 +282,17 @@ h6{
 }
 
 .container {
-
 position: relative;
-
-/* text-align: center; */
 color:white;
-/* bottom: 20%; */
 }
 
 .centered {
   font-weight: bold;
-    position: absolute;
-    /* top: 7em;
-    left: 5em;
-    right: 7em; */
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    /* text-align: center; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  display: inline;
 
-    display: inline;
-    /* margin-top: 30%; */
 }
 
 #sport{
@@ -359,25 +317,5 @@ color:white;
   color:white;
   font-weight: bold;
   top:7em;
-  /* bottom: 10%; */
-  /* width: auto; */
-  /* margin-top: 15%; */
+
 }
-
-
-
-
-/* .row .column {
-    /* float: left; */
-    /* display:inline-block;
-    color: grey;
-    text-align: center;
-    align-items: center;
-
-    text-decoration: none; */
-
-
-/* .row{
-  align-items: center;
-
-} */
