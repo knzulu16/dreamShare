@@ -1,6 +1,7 @@
 body{
   width: 100%;
-  margin:auto;
+  margin: auto;
+
 }
 .headerBackground{
     background-image: url("images/headerBackground.jpg");
@@ -95,6 +96,8 @@ h2{
 img.meetPartner{
   border-radius: 50%;
   color:#444444;
+  text-align: center;
+  margin-top: 20%;
 
 }
 
@@ -157,7 +160,11 @@ img.icon{
   margin-top: 30%;
   margin-left: 40%;
   text-align: center;
- color: #FF4E50;
+ color:#666666;
+}
+p.seeOtherPart{
+  text-align: center;
+
 }
 div.discover{
   margin-top:2em;
@@ -175,12 +182,14 @@ div.column1 {
   margin: 2em;
   /* align-items: center; */
   margin-left:4em;
-  margin-right: 4em;
+  margin-right:4em;
+
   /* margin-right: 2em; */
   /* position:relative; */
 margin-bottom:15%;
 text-align: center;
 /* margin-bottom: auto; */
+
 }
 div.center{
   /* margin-bottom:400%; */
@@ -215,13 +224,15 @@ margin-bottom:15%;
 }
 div.column3 {
   float: left;
-
-  margin-top:20%;
-
+  margin-top:2em;
   margin: 2em;
   margin-left:4em;
   margin-right: -2em;
+  margin-bottom:10%;
 }
+/* .column3.centered{
+  margin-top: 20%;
+} */
 .row::after {
     content: "";
     clear: both;
@@ -238,12 +249,21 @@ div.column3 {
 hr {
 
    border-top: 1px solid #FF4E50;
-  margin-top: 2em;
+  margin-top: 20%;
    /* margin-top:50em; */
    /* margin-left:30em;  */
    /* margin-bottom:40%; */
-    width: 96%;
+    width: 100%;
 
+}
+.row{
+
+  bottom: 0%;
+}
+#image-wrapper{
+  text-align: center;
+
+   bottom: 0%;
 }
 div.column4 {
   float: left;
@@ -261,6 +281,11 @@ ul {
 }
 div.container {
     position: relative;
+    padding-left:3em;
+    padding-top: 2em;
+    /* top: 50px;
+    left: 50px; */
+
 }
 h4{
 color:#444444;
@@ -290,27 +315,53 @@ h6{
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color:White;
+
+position: relative;
+
+/* text-align: center; */
+color:white;
+/* bottom: 20%; */
 }
 
 .centered {
   font-weight: bold;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 7em;
+    left: 5em;
+    right: 7em; */
     transform: translate(-50%, -50%);
     font-size: 24px;
-    text-align: center;
-    
+    /* text-align: center; */
+
+    display: inline;
     /* margin-top: 30%; */
 }
+
 #sport{
   color:#444444;
   font-weight: bold;
-  margin-top: 30%;
+  top:7em;
 
+}
+#WellnessAndExped{
+  color:white;
+  font-weight: bold;
+  top:7em;
+}
+
+#gamesAndCulture{
+  color:white;
+  font-weight: bold;
+  top:7em;
+  width: 60%;
+}
+#beautyAndTravelling{
+  color:white;
+  font-weight: bold;
+  top:7em;
+  /* bottom: 10%; */
+  /* width: auto; */
+  /* margin-top: 15%; */
 }
 
 
